@@ -1,0 +1,72 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:30px;
+}
+
+.ext-container {
+    height: 500px;
+    padding: 10px;
+    margin: 25px;
+}
+.container1 {
+    display: flex;
+}
+.container1 .boxes {
+    margin: 3px;
+    width: 33%;
+    height: 200px;
+    border: 5px solid lightcoral;
+    border-radius: 10px;
+    color: rgb(235, 44, 101);
+    background-color: lightcoral;
+}
+
+.container1 .boxes .box-1 {
+    display: flex;
+    height: 100%;
+}
+.b{
+    display: flex;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    width: 98%;
+    height: 25%
+}
+.bb {
+    border: 1px solid transparent;
+    background-color: lightsalmon;
+    color: rgb(140, 35, 35);
+    border-radius: 10px;
+    width: 33%;
+    margin: 2px;
+}
+
+
+.container2 {
+    display: flex;
+}
+.container2 .boxes {
+    margin: 3px;
+    width: 33%;
+    height: 90px;
+    border: 5px solid lightcoral;
+    border-radius: 10px;
+    color: rgb(235, 44, 101);
+    background-color: lightcoral;
+}
+
+.container3 {
+    display: flex;
+}
+.container3 .boxes {
+    margin: 3px;
+    width: 33%;
+    height: 75px;
+    border: 5px solid lightcoral;
+    border-radius: 10px;
+    color: rgb(235, 44, 101);
+    background-color: lightcoral;
+}
