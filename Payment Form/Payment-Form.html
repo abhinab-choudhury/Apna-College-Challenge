@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./styles.css">
+	<title>Payment Form</title>
+</head>
+<body>
+	<div class="container">
+		<form action="" method="get">
+			<h1>Payment Form</h1>
+			<div class="content">
+				<h2>Contact Information</h2>
+				<hr>
+				<p>
+					NAME* : <input type="text" name="name" required placeholder="name">
+				</p>
+				<fieldset>
+					<legend>Gender</legend>
+					<p>
+						Male : <input type="radio" name="gender" required> Female:  <input type="radio" name="gender" required>
+					</p>
+				</fieldset>
+				<p>
+					Select Course*:
+					<select name="course_name" id="" required>
+						<option value=""> -- SELECT -- </option>
+						<option value="c++">C++ Course: Basics to Advance</option>
+						<option value="Java">Java Course: App Developement </option>
+						<option value="Python">Web Developement: MERN Stack</option>
+					</select>
+				</p>
+				<p>
+					Address* : <textarea name="address" cols="40" rows="7" required></textarea>
+				</p>
+				<p>	
+					Email* : <input type="emain" name="email" required placeholder="xyz@gmail.com">
+				</p>
+				<p>
+					Pincode* : <input type="number" name="pincode" required placeholder="XXXXXX">
+				</p>
+				<h2>Payment Information</h2>
+				<p>
+					Card Type* :
+					<select name="card_type" required>
+						<option value="">--SELECT--</option>
+						<option value="Visa">Visa</option>
+						<option value="Master_card">Master Card</option>
+						<option value="rupay">Rupay</option>
+					</select>
+				</p>
+				<p>
+					Card Number* : <input type="number" name="card_no" required>
+				</p>
+				<p>
+					Expiration Date* : <input type="date" name="exp_date" required>
+				</p>
+				<p>
+					CVV* : <input type="password" name="password" required>
+				</p>
+				<br>
+				<input type="submit" value="Pay Now">
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

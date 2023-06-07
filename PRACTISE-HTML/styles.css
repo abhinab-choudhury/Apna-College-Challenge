@@ -1,0 +1,30 @@
+#First{
+	color : blue;
+}
+#Second {
+	color : red;
+}
+.color{
+	color : orangered;
+}
+.position {
+	align-content: center;
+}
+.box {
+    padding: 15px 570px;
+}
+table, th, tr, td {
+    border: 1px solid oldlace;
+    border-collapse: collapse;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+th{
+    color: orange;
+    background-color: oldlace;
+}
+tr{
+    color: rgb(206, 134, 46);
+    background-color: antiquewhite;
+}

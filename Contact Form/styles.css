@@ -1,0 +1,84 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ddd;
+}
+html{
+    padding: 15px 250px 15px 250px;
+}
+nav {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:black;
+    padding: 25px;
+    margin: 10px;
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: inherit;
+    font-size: 30px;
+    font-weight: bolder;
+}
+nav a:hover {
+    color: #534040;
+}
+.m_heading{
+    color: black;
+    padding: 5px;
+    margin: 8px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ddd;
+}
+.container {
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin: 15px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    padding: 10px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    color: rgb(2, 33, 2);
+    background: rgb(91, 165, 91);
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid  black;
+    border-radius: 5px;
+}
+footer h6 {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+footer a:hover {
+    color: blue;
+}

@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div{
+    padding: 25px;
+    margin: 20px; 
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+div:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+@media  screen and (max-width:1050px) {
+    div{
+        padding: 5%;
+        margin: 10%;
+        color: whitesmoke;
+        background-color: black;
+    }
+    div:hover{
+        border-width: 10px;
+        border-color: rgb(189, 150, 227);
+        color: rgb(173, 28, 231);
+        background-color: rgb(198, 165, 229);
+    }
+}
