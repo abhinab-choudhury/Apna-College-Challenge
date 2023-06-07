@@ -1,0 +1,66 @@
+body{
+    padding: 10px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row-1 {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.box {
+    display: inline-block;
+    margin: 10px;
+    border: 3px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    font-size: 25px;
+    height: 780px;
+    box-shadow:10px 10px 30px 8px rgb(189, 184, 184);
+    object-fit: contain;
+    width: 33%;
+}
+
+.box img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-shadow:10px 10px 30px 8px rgb(189, 184, 184);
+    border-radius: 5px;
+}
+
+.box h3 {
+    text-align: center;
+}
+
+.box p{
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+#box-1{
+    margin-top: 35px;
+}
+#box-2 {
+    height: 830px;
+}
+#box-3{
+    margin-top: 35px;
+}
+
+button {
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-self: flex-end;
+    margin-left: 75px;
+    width: 68%;
+    height: 40px;
+}
+
+.row-2 {
+    display: flex;
+    margin-top: 10px;
+}
