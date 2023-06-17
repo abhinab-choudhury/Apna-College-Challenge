@@ -2,8 +2,6 @@
 
 This repo contains my solutions to the challenges given in Apna Collage Web Development Series.
 
-Hope that the Web Development Course Renews Again
-
 ## Links to CodePen
 
 * [Challenge-1](https://codepen.io/_LLPABHINAB_/pen/NWEWLWO)
@@ -13,4 +11,9 @@ Hope that the Web Development Course Renews Again
 * [Challenge-5](https://codepen.io/_LLPABHINAB_/pen/xxQxyXJ)
 * [Challenge-6](https://codepen.io/_LLPABHINAB_/pen/jOQOXWJ)
 * [Challenge-7](https://codepen.io/_LLPABHINAB_/pen/XWyWONe)
-*
+* [Challenge-8](https://codepen.io/_LLPABHINAB_/pen/ExOKvmd)
+* [Challenge-9](https://codepen.io/_LLPABHINAB_/pen/ZEmWJyx)
+
+____
+
+The Files name inside the Repo are slightly different than the challenge number sequence so bear with me
