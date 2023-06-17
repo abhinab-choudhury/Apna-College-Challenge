@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    height: 95vh;
+    margin: 15px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(6,1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.box {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(231, 217, 13);
+    font-size: 18px;
+    background-color: rgb(251, 251, 147);
+    border: 1px solid rgb(251, 251, 147);
+    border-radius: 10px;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6 {
+    display:  grid;
+    row-gap: 10px;
+}
